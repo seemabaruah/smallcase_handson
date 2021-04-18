@@ -1,7 +1,6 @@
 package com.smallcase.automation.amazon;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,7 +8,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class AmazonHomePage {
@@ -18,8 +16,6 @@ public class AmazonHomePage {
     public AmazonHomePage(WebDriver driver) {
         this.webDriver = driver;
     }
-
-
 
     public void searchProduct(String searchString) {
         webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
