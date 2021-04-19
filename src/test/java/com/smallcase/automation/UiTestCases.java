@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import static com.smallcase.automation.common.MathUtils.convertStringToFloat;
 
-public class TestCases {
+public class UiTestCases {
     @Test
     public void scenarioOne() {
         Driver driver = new Driver();
