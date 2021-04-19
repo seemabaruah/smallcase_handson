@@ -16,6 +16,6 @@ Java8 and Intellij or eclipse should be installed.
 6. Amazon package has AmazonHpmePage, AmazonSearchPage, AmazonProductPage and AmazonCart page.
 7. The test scenarios can be run on Chrome, Internet Explore and Firefox.
 8. At the end of the execution of each step, TestSuit generates report log.
-9. For API rest assured test, under src/test/resources, written BookSchema.json which has all rules validate data type.
+9. For API rest assured test, under src/test/resources, written BookSchema.json which has all rules to validate data type.
 
 
