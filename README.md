@@ -3,9 +3,8 @@ Java8 and Intellij or eclipse should be installed.
 </br> Intellij or Eclipse Requiriment:TestNG plugin must be installed.
 ## How to Run Scenarios
 1. Go to src/test/java/com/smallcase/automation/TestCases.java
-2. Now Select the scenario file.
-3. Right click on it and click on Run As.
-4. Now, choose TestNG Test.
+2. Now Select the scenario method.
+3. Run the scenario.
 ## Project Structure
 1. All the Scenarios are in "src/test/java/com/smallcase/automation/TestCases"
 2. I've created three different packages based on the scenarios.  
