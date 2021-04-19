@@ -6,7 +6,7 @@ Java8 and Intellij or eclipse should be installed.
 2. Now Select the scenario method.
 3. Run the scenario.
 4. To run API rest assured test, go to src/test/java/com/smallcase/automation/ApiTestCases.java
-5. run validateBooksSchema()
+5. Run validateBooksSchema()
 ## Project Structure
 1. All the Scenarios are in "src/test/java/com/smallcase/automation/TestCases"
 2. I've created three different packages based on the scenarios.  
